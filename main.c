@@ -6,6 +6,7 @@
 
 int main()
 {
+  //sieve(1000000);
   printf("%d\n",sieve(1000000) );
   //sieve(50);
 }

@@ -2,10 +2,10 @@ all: main.o sieve.o
 	gcc main.o sieve.o -lm
 
 main.o: main.c sieve.h
-	gcc -g -c main.c
+	gcc -c main.c
 
 sieve.o: sieve.c sieve.h
-	gcc -g -c sieve.c
+	gcc -c sieve.c
 
 run: all
 	./a.out
